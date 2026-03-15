@@ -2,7 +2,7 @@
 
 On-device **reinforcement learning** for Swift. Built on [SwiftGrad](https://github.com/SwiftAutograd/SwiftGrad)'s autograd engine.
 
-SwiftRL brings reinforcement learning to iOS, macOS, and visionOS — no Python, no server, no cloud. Train RL agents directly on Apple devices with real-time gradient computation through SwiftGrad's `backward()`.
+SwiftRL brings reinforcement learning to iOS, macOS, and visionOS - no Python, no server, no cloud. Train RL agents directly on Apple devices with real-time gradient computation through SwiftGrad's `backward()`.
 
 ## Status
 
@@ -10,7 +10,7 @@ SwiftRL is in active development. The autograd foundation ([SwiftGrad](https://g
 
 ## The Problem
 
-There is **no reinforcement learning library for Swift**. The only attempt ([swift-rl](https://github.com/eaplatanios/swift-rl)) died in 2021 when Swift for TensorFlow was archived. Every RL tool today — Stable-Baselines3, CleanRL, RLlib, Unity ML-Agents — requires Python and cannot run on iOS.
+There is **no reinforcement learning library for Swift**. The only attempt ([swift-rl](https://github.com/eaplatanios/swift-rl)) died in 2021 when Swift for TensorFlow was archived. Every RL tool today - Stable-Baselines3, CleanRL, RLlib, Unity ML-Agents - requires Python and cannot run on iOS.
 
 Meanwhile:
 - AI in gaming is a **$5.85B market** growing to $38B by 2034
@@ -25,7 +25,7 @@ Meanwhile:
 | **Real-time performance** | Policy updates within 16ms frame budgets. No GIL, no GC pauses. |
 | **Privacy by default** | RL agents learn from user behavior that never leaves the device. |
 | **Native game integration** | Direct access to SpriteKit, RealityKit, GameplayKit game loops. |
-| **Unified memory** | Apple Silicon shares CPU/GPU memory — no data copies for training. |
+| **Unified memory** | Apple Silicon shares CPU/GPU memory - no data copies for training. |
 | **visionOS exclusive** | Spatial computing is Swift-only. Adaptive spatial agents require Swift. |
 
 ## Planned Architecture
@@ -33,22 +33,22 @@ Meanwhile:
 ```
 SwiftRL
 ├── Core
-│   ├── Environment        — Protocol: step(action) → (state, reward, done)
-│   ├── ReplayBuffer       — Uniform and prioritized experience replay
-│   ├── Policy             — Protocol for policy networks
-│   └── Trainer            — Training loop orchestration
+│   ├── Environment        - Protocol: step(action) → (state, reward, done)
+│   ├── ReplayBuffer       - Uniform and prioritized experience replay
+│   ├── Policy             - Protocol for policy networks
+│   └── Trainer            - Training loop orchestration
 ├── Algorithms
-│   ├── REINFORCE          — Simplest policy gradient
-│   ├── DQN               — Deep Q-Network with target network
-│   ├── A2C               — Advantage Actor-Critic
-│   └── PPO               — Proximal Policy Optimization
+│   ├── REINFORCE          - Simplest policy gradient
+│   ├── DQN               - Deep Q-Network with target network
+│   ├── A2C               - Advantage Actor-Critic
+│   └── PPO               - Proximal Policy Optimization
 ├── Environments
-│   ├── GridWorld          — Navigation with obstacles
-│   ├── CartPole           — Classic control benchmark
-│   └── Bandit             — Multi-armed bandit
+│   ├── GridWorld          - Navigation with obstacles
+│   ├── CartPole           - Classic control benchmark
+│   └── Bandit             - Multi-armed bandit
 └── Optimizers
-    ├── SGD               — (from SwiftGrad)
-    └── Adam              — Adaptive moment estimation
+    ├── SGD               - (from SwiftGrad)
+    └── Adam              - Adaptive moment estimation
 ```
 
 ## Planned Usage
@@ -96,10 +96,10 @@ let action = agent.act(observation: env.reset())
 ## Demo Apps
 
 See [SwiftRLDemos](https://github.com/SwiftAutograd/SwiftRLDemos) for playable iOS apps showcasing SwiftRL:
-- Snake — DQN learns to hunt food in real-time
-- 2048 — Policy gradient discovers tile-merging strategies
-- Connect Four — Self-play TD learning
-- Blackjack — Monte Carlo policy evaluation
+- Snake - DQN learns to hunt food in real-time
+- 2048 - Policy gradient discovers tile-merging strategies
+- Connect Four - Self-play TD learning
+- Blackjack - Monte Carlo policy evaluation
 
 ## Part of the SwiftAutograd Organization
 
@@ -111,11 +111,11 @@ See [SwiftRLDemos](https://github.com/SwiftAutograd/SwiftRLDemos) for playable i
 
 ## Research & Inspiration
 
-- [micrograd](https://github.com/karpathy/micrograd) by Andrej Karpathy — the autograd engine SwiftGrad is built on
-- [CleanRL](https://github.com/vwxyzjn/cleanrl) — single-file RL implementations we aim to match in clarity
-- [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents) — the closest analog (but Python-dependent, desktop-only training)
-- [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3) — the API design standard for RL libraries
-- Apple ML Research — [8+ RL papers](https://machinelearning.apple.com) published 2023-2025
+- [micrograd](https://github.com/karpathy/micrograd) by Andrej Karpathy - the autograd engine SwiftGrad is built on
+- [CleanRL](https://github.com/vwxyzjn/cleanrl) - single-file RL implementations we aim to match in clarity
+- [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents) - the closest analog (but Python-dependent, desktop-only training)
+- [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3) - the API design standard for RL libraries
+- Apple ML Research - [8+ RL papers](https://machinelearning.apple.com) published 2023-2025
 
 ## Contributing
 
@@ -123,4 +123,4 @@ SwiftRL is in early development. If you're interested in contributing, open an i
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT - see [LICENSE](LICENSE).
