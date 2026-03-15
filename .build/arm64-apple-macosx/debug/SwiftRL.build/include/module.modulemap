@@ -1,3 +1,0 @@
-module SwiftRL {
-    header "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/include/SwiftRL-Swift.h"
-}

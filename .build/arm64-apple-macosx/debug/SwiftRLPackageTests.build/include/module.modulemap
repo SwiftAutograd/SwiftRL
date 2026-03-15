@@ -1,3 +1,0 @@
-module SwiftRLPackageTests {
-    header "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRLPackageTests.build/include/SwiftRLPackageTests-Swift.h"
-}

@@ -1,3 +1,0 @@
-module SwiftGrad {
-    header "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftGrad.build/include/SwiftGrad-Swift.h"
-}
