@@ -1,0 +1,96 @@
+{
+  "": {
+    "swift-dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/master.swiftdeps"
+  },
+  "/private/tmp/SwiftRL/Sources/SwiftRL/Algorithms/DQN.swift": {
+    "dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/DQN.d",
+    "object": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/DQN.swift.o",
+    "swiftmodule": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/DQN~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/DQN.swiftdeps",
+    "diagnostics": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/DQN.dia"
+  },
+  "/private/tmp/SwiftRL/Sources/SwiftRL/Algorithms/REINFORCE.swift": {
+    "dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/REINFORCE.d",
+    "object": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/REINFORCE.swift.o",
+    "swiftmodule": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/REINFORCE~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/REINFORCE.swiftdeps",
+    "diagnostics": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/REINFORCE.dia"
+  },
+  "/private/tmp/SwiftRL/Sources/SwiftRL/Core/Agent.swift": {
+    "dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Agent.d",
+    "object": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Agent.swift.o",
+    "swiftmodule": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Agent~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Agent.swiftdeps",
+    "diagnostics": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Agent.dia"
+  },
+  "/private/tmp/SwiftRL/Sources/SwiftRL/Core/Environment.swift": {
+    "dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Environment.d",
+    "object": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Environment.swift.o",
+    "swiftmodule": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Environment~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Environment.swiftdeps",
+    "diagnostics": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Environment.dia"
+  },
+  "/private/tmp/SwiftRL/Sources/SwiftRL/Core/ReplayBuffer.swift": {
+    "dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/ReplayBuffer.d",
+    "object": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/ReplayBuffer.swift.o",
+    "swiftmodule": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/ReplayBuffer~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/ReplayBuffer.swiftdeps",
+    "diagnostics": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/ReplayBuffer.dia"
+  },
+  "/private/tmp/SwiftRL/Sources/SwiftRL/Environments/Bandit.swift": {
+    "dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Bandit.d",
+    "object": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Bandit.swift.o",
+    "swiftmodule": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Bandit~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Bandit.swiftdeps",
+    "diagnostics": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Bandit.dia"
+  },
+  "/private/tmp/SwiftRL/Sources/SwiftRL/Environments/CartPole.swift": {
+    "dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/CartPole.d",
+    "object": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/CartPole.swift.o",
+    "swiftmodule": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/CartPole~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/CartPole.swiftdeps",
+    "diagnostics": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/CartPole.dia"
+  },
+  "/private/tmp/SwiftRL/Sources/SwiftRL/Environments/GridWorld.swift": {
+    "dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/GridWorld.d",
+    "object": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/GridWorld.swift.o",
+    "swiftmodule": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/GridWorld~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/GridWorld.swiftdeps",
+    "diagnostics": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/GridWorld.dia"
+  },
+  "/private/tmp/SwiftRL/Sources/SwiftRL/Math/Softmax.swift": {
+    "dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Softmax.d",
+    "object": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Softmax.swift.o",
+    "swiftmodule": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Softmax~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Softmax.swiftdeps",
+    "diagnostics": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Softmax.dia"
+  },
+  "/private/tmp/SwiftRL/Sources/SwiftRL/Optimizers/Adam.swift": {
+    "dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Adam.d",
+    "object": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Adam.swift.o",
+    "swiftmodule": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Adam~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Adam.swiftdeps",
+    "diagnostics": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/Adam.dia"
+  },
+  "/private/tmp/SwiftRL/Sources/SwiftRL/SwiftRL.swift": {
+    "dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/SwiftRL.d",
+    "object": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/SwiftRL.swift.o",
+    "swiftmodule": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/SwiftRL~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/SwiftRL.swiftdeps",
+    "diagnostics": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/SwiftRL.dia"
+  },
+  "/private/tmp/SwiftRL/Sources/SwiftRL/Utilities/EpsilonSchedule.swift": {
+    "dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/EpsilonSchedule.d",
+    "object": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/EpsilonSchedule.swift.o",
+    "swiftmodule": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/EpsilonSchedule~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/EpsilonSchedule.swiftdeps",
+    "diagnostics": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/EpsilonSchedule.dia"
+  },
+  "/private/tmp/SwiftRL/Sources/SwiftRL/Utilities/RewardTracker.swift": {
+    "dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/RewardTracker.d",
+    "object": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/RewardTracker.swift.o",
+    "swiftmodule": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/RewardTracker~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/RewardTracker.swiftdeps",
+    "diagnostics": "/private/tmp/SwiftRL/.build/arm64-apple-macosx/debug/SwiftRL.build/RewardTracker.dia"
+  }
+}

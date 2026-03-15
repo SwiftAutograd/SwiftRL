@@ -1,0 +1,15 @@
+{
+  "originHash" : "622e316ec3f7eb0c29ac0db45f72a8398949787c2252f7c579180a1c9ff5410e",
+  "pins" : [
+    {
+      "identity" : "swiftgrad",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftAutograd/SwiftGrad.git",
+      "state" : {
+        "revision" : "c09c6853566f0471849b3c64fc9732d4aed1eeed",
+        "version" : "0.2.0"
+      }
+    }
+  ],
+  "version" : 3
+}
