@@ -100,9 +100,13 @@ public struct Snake: Environment {
 
     // MARK: - Public accessors for rendering
 
+    /// The list of (x, y) positions occupied by the snake, head first.
     public var snakeBody: [(Int, Int)] { body }
+    /// The current (x, y) position of the food.
     public var foodPosition: (Int, Int) { food }
+    /// The number of food items eaten this episode.
     public var currentScore: Int { score }
+    /// The current heading as a raw integer (0=up, 1=right, 2=down, 3=left).
     public var headDirection: Int { direction.rawValue }
 
     // MARK: - Private

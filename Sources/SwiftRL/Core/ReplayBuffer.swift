@@ -4,8 +4,11 @@ import Foundation
 public struct ReplayBuffer: Sendable {
     private var buffer: [Experience]
     private var position: Int = 0
+    /// The maximum number of experiences this buffer can hold.
     public let capacity: Int
+    /// The number of experiences currently stored.
     public var count: Int { min(buffer.count, capacity) }
+    /// Whether the buffer has reached its capacity.
     public var isFull: Bool { buffer.count >= capacity }
 
     public init(capacity: Int) {
