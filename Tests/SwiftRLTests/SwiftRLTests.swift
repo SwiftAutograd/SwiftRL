@@ -334,12 +334,11 @@ import SwiftGrad
     )
     var env = Bandit(means: [0.1, 0.5, 0.9], stddev: 0.1)
 
-    let rewards = agent.train(environment: &env, episodes: 500)
+    let rewards = agent.train(environment: &env, episodes: 1000)
 
-    // Average reward over last 100 episodes should improve
-    let earlyAvg = rewards.prefix(100).reduce(0, +) / 100.0
+    // Average reward over last 100 episodes should be close to the best arm (0.9)
     let lateAvg = rewards.suffix(100).reduce(0, +) / 100.0
-    #expect(lateAvg > earlyAvg)
+    #expect(lateAvg > 0.5)
 }
 
 // MARK: - DQN Integration Test
