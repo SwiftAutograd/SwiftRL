@@ -7,7 +7,7 @@ let package = Package(
         .library(name: "SwiftRL", targets: ["SwiftRL"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/SwiftAutograd/SwiftGrad.git", from: "0.2.0"),
+        .package(url: "https://github.com/SwiftAutograd/SwiftGrad.git", from: "0.3.1"),
     ],
     targets: [
         .target(
